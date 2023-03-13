@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 15%;
+        left: 0;
+        z-index: 1000;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        background-color: rgba(21,51,76,.95);
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        width: 100vw;
+      }
+  }
